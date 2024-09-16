@@ -15,6 +15,7 @@
                 <li>Proceso</li>
                 <li>Galeria</li>
                 <li>Intranet</li>
+                <li>Contactame</li>
             </ul>
         </nav>
     </head>
@@ -44,6 +45,70 @@
                      velit voluptatem qui! Maxime, deserunt.
                 </p>
             </div>
+        </section>
+        <section>
+            <h2>Contactanos</h2>
+            <div>
+                <img src="/semana3/assests/contacto.jpeg" 
+                alt=""
+                height="50"
+                width="50">
+            </div>
+            <form action="">
+                <p>
+                    <label for="">Registro</label> <br>
+                    <label for="">
+                        <input type="radio" name="titulo" value="sr">
+                        sr
+                    </label>
+                    <label for="">
+                        <input type="radio" name="titulo" value="sra">
+                        Sra
+                    </label>
+                    <label for="">
+                        <input type="radio" name="titulo" value="srta">
+                        Srta
+                    </label>
+                </p>
+
+                <p>
+                    <label for="">Nombres</label><br>
+                    <input type="text" name="nombres" pattern="[A-Za-z\s]+" title="Ingresar solo texto">
+                </p>
+                <p>
+                    <label for="">Apellidos</label><br>
+                    <input type="text" name="apellidos"  pattern="[A-Za-z\s]+" title="Ingresar solo texto">
+                </p>
+                <p>
+                    <label for="">email</label><br>
+                    <input type="email" name="email" placeholder="ejemplo@unamad.edu.pe" required> 
+                </p>
+                <p>
+                    <label for="">Direccion</label><br>
+                    <input type="text" name="direccion">
+                </p>
+                <p>
+                    <label for="">Telefono</label> <br>
+                    <input type="number" name="fono" required>
+                </p>
+                <p>
+                    <label for="">Regiones</label>
+                    <select >
+                        <option>Madre de Dios</option>
+                        <option>Cusco</option>
+                        <option>Puno</option>
+                        <option>Arequipa</option>
+                        <option>Apurimac</option>
+                        <option selected="true">Ucayali</option>
+                    </select>
+                    
+                </p>
+                <p>
+                    <button>Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </p>
+                
+            </form>
         </section>
     </main>
 </body>
