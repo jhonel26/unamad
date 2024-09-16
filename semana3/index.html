@@ -7,6 +7,9 @@
 </head>
 <body>
     
+    <!--pattern="[A-Za-z\s]+" title="Ingresar solo texto" este codigo permite ingresar solo texto
+    pattern="\d+" title="ingrese solo numero": permite solo numero 
+    -->
     <h1>Bienvenido a la vida universitaria</h1>
     <head>
         <nav>
@@ -89,7 +92,7 @@
                 </p>
                 <p>
                     <label for="">Telefono</label> <br>
-                    <input type="number" name="fono" required>
+                    <input type="text" name="fono" pattern="\d+" title="ingrese solo numero" required>
                 </p>
                 <p>
                     <label for="">Regiones</label>
